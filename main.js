@@ -64,12 +64,14 @@ const catalogo = [
     }
 ];
 
-const cartaoProduto = `<div id="card-produto-1">
-<img src="./assets/img/${catalogo[0].imagem}" alt="Produto 1 do meu site" style="height: 300px">
-<p>${catalogo[0].marca}</p>
-<p>${catalogo[0].nome}</p>
-<p>R$${catalogo[0].preco}</p>
-<button>Adicionar</button>
-</div>`;
+for (const produtoCatalogo of catalogo) {
+    const cartaoProduto = `<div id="card-produto-1">
+    <img src="./assets/img/${produtoCatalogo.imagem}" alt="Produto 1 do meu site" style="height: 300px">
+    <p>${produtoCatalogo.marca}</p>
+    <p>${produtoCatalogo.nome}</p>
+    <p>R$${produtoCatalogo.preco}</p>
+    <button>Adicionar</button>
+    </div>`;
 
-document.getElementById('container-produto').innerHTML += cartaoProduto
+    document.getElementById('container-produto').innerHTML += cartaoProduto
+};
