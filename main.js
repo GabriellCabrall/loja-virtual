@@ -67,7 +67,7 @@ const catalogo = [
 for (const produtoCatalogo of catalogo) {
     const cartaoProduto = `<div id="card-produto-1">
     <img src="./assets/img/${produtoCatalogo.imagem}" alt="Produto 1 do meu site" style="height: 300px">
-    <p>${produtoCatalogo.marca}</p>
+    <p class="marca">${produtoCatalogo.marca}</p>
     <p>${produtoCatalogo.nome}</p>
     <p>R$${produtoCatalogo.preco}</p>
     <button>Adicionar</button>

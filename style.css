@@ -1,3 +1,11 @@
 p {
     color: gray;
 }
+
+#container-produto {
+    background-color: aquamarine;
+}
+
+.marca {
+    color: blue;
+}
