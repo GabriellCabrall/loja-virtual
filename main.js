@@ -1,3 +1,5 @@
+import { inicializarCarrinho } from "./src/menuCarrinho";
+
 const catalogo = [
     {
         id: 1,
@@ -75,3 +77,5 @@ for (const produtoCatalogo of catalogo) {
 
     document.getElementById('container-produto').innerHTML += cartaoProduto
 };
+
+inicializarCarrinho();

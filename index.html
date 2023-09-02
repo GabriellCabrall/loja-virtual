@@ -15,10 +15,23 @@
   />
 </head>
 <body>
+  <section id="carrinho" class="fixed top-0 right-[-360px] bg-emerald-950 h-screen w-[360px] text-slate-200">
+    <div id="cabecalho-carrinho" class="flex justify-between m-4">
+      <p>Meu carrinho</p>
+      <button id="fechar-carrinho"><i class="fa-solid fa-circle-xmark"></i></button>
+    </div>
+    <section id="produtos-carrinho">
+      <p>Camisa Reta</p>
+      <p>Casaco enorme</p>
+      <p>Roupa feia</p>
+    </section>
+    <p id="preco-total">$200</p>
+    <button class="bg-slate-200 text-slate-900 p-1">Finalizar compra</button>
+  </section>
   <header class="flex bg-emerald-950 p-2 justify-between">
     <img class="h-16" src="./assets/logo/icone.png" alt="logo da minha lojinha">
     <div class="text-slate-200 flex gap-2 items-end mx-2">
-      <button><i class="fa-solid fa-cart-shopping"></i></button>
+      <button id="abrir-carrinho"><i class="fa-solid fa-cart-shopping"></i></button>
       <button><i class="fa-solid fa-user"></i></button>
     </div>
   </header>
@@ -27,6 +40,6 @@
       
     </section>
   </main>
-  <script src="./main.js"></script>
+  <script type="module" src="./main.js"></script>
 </body>
 </html>
