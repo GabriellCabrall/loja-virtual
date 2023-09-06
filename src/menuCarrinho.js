@@ -26,10 +26,15 @@ export function adcionarAoCarrinho(idProduto) {
       <i class="fa-solid fa-circle-xmark text-slate-500 hover:text-slate-800"></i>
     </button>
     <img src="./assets/img/${produto.imagem}" alt="Carrinho: ${produto.nome}" class="h-24 rounded-lg">
-    <div class="p-2">
+    <div class="p-2 flex flex-col justify-between">
       <p class="text-slate-900 text-sm">${produto.nome}</p>
       <p class="text-slate-400 text-xs">Tamanho: M</p>
       <p class="text-green-700 text-lg">$${produto.preco}</p>
+    </div>
+    <div class="flex text-slate-950 items-end absolute bottom-0 right-2 text-lg">
+      <button>-</button>
+      <p class="ml-2">2</p>
+      <button class="ml-2">+</button>
     </div>
   </article>`;
   containerProdutosCarrinho.innerHTML += cartaoProdutoCarrinho
