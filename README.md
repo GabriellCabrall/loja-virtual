@@ -1,16 +1,20 @@
 # Loja e-commerce
 
 ## Descrição
+
 Este projeto é uma simulação de uma loja de e-commerce de roupas.
 
 ## Tecnologias utilizadas
+
 - Vite
 - JavaScript
 - HTML/CSS
 - Tailwind
 
 ## Instalação
+
 Para instalar e executar este projeto em sua própria máquina, siga estas etapas:
+
 1. Clone o repositório.
 2. Abra um terminal no diretório do projeto.
 3. Execute o comando `npm install` para instalar as dependências.
